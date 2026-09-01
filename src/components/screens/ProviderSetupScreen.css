@@ -1,0 +1,88 @@
+.provider-setup-screen {
+  padding: var(--spacing-2xl);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.setup-header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.setup-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--color-text-primary);
+}
+
+.setup-header p {
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.provider-type-selection {
+  text-align: center;
+}
+
+.provider-type-selection h2 {
+  font-size: 24px;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text-primary);
+}
+
+.type-buttons {
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.provider-form {
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.form-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-group label {
+  display: block;
+  color: var(--color-text-primary);
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  font-size: 16px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-tertiary);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  font-size: 16px;
+  transition: var(--transition-fast);
+}
+
+.form-group input:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+
+.form-group input::placeholder {
+  color: var(--color-text-secondary);
+}
+
+.form-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+}
+
+.form-buttons button {
+  flex: 1;
+}
