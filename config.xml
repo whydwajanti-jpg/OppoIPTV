@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://www.oppointv.local/oppointv" version="1.0.0" viewmodes="tv">
+  <access origin="*" subdomains="true"/>
+  <tizen:application id="oppointv.OppoIPTV" package="oppointv" required_version="8.0.0"/>
+  <content src="index.html"/>
+  <feature name="http://tizen.org/feature/screen.size.normal.1080p"/>
+  <feature name="http://tizen.org/feature/screen.size.large.1080p"/>
+  <feature name="http://tizen.org/feature/screen.size.xlarge.1080p"/>
+  <icon src="public/images/icon.png" width="117" height="117"/>
+  <name>OppoIPTV</name>
+  <description>IPTV player application for modern Smart TVs</description>
+  <author>OppoIPTV Contributors</author>
+  <license>MIT</license>
+  <tizen:privilege name="http://tizen.org/privilege/internet"/>
+  <tizen:privilege name="http://tizen.org/privilege/av.play"/>
+  <tizen:privilege name="http://tizen.org/privilege/mediastorage.read"/>
+  <tizen:privilege name="http://tizen.org/privilege/usb.host"/>
+  <tizen:meta-data key="http://samsung.com/tv/metadata/allow_js_access_nwbuddy" value="true"/>
+  <tizen:meta-data key="http://samsung.com/tv/metadata/allow_specified_protocol" value="true"/>
+</widget>
