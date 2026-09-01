@@ -1,0 +1,135 @@
+.vod-screen {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.vod-header {
+  margin-bottom: var(--spacing-lg);
+}
+
+.vod-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--color-text-primary);
+}
+
+.vod-container {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex: 1;
+  overflow: hidden;
+}
+
+.vod-sidebar {
+  width: 250px;
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+  overflow-y: auto;
+}
+
+.genre-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 var(--spacing-md) 0;
+  color: var(--color-text-primary);
+}
+
+.genre-button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  padding: var(--spacing-sm) var(--spacing-md);
+  text-align: left;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition-fast);
+  margin-bottom: var(--spacing-sm);
+  font-size: 14px;
+}
+
+.genre-button:hover {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text-primary);
+}
+
+.genre-button.active {
+  background-color: var(--color-accent);
+  color: var(--color-bg-primary);
+}
+
+.genre-button:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.vod-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.vod-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.vod-card {
+  background-color: var(--color-bg-secondary);
+  border: 2px solid transparent;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  overflow: hidden;
+  transition: var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+}
+
+.vod-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
+}
+
+.vod-card.selected {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 4px rgba(0, 180, 255, 0.2);
+}
+
+.vod-card:focus {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.vod-poster {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+.vod-info {
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.vod-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.vod-year {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
