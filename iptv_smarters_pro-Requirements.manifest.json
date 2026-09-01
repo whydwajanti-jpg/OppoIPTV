@@ -1,0 +1,21 @@
+{
+  "document": "iptv_smarters_pro-Requirements.md",
+  "classification_policy": [
+    "VERIFIED",
+    "DERIVED",
+    "MISSING",
+    "CONFLICT",
+    "UNKNOWN"
+  ],
+  "official_platform_sources": [
+    "https://developer.samsung.com/smarttv/develop/specifications/general-specifications.html",
+    "https://developer.samsung.com/smarttv/develop/specifications/media-specifications/2024-tv-video-specifications.html",
+    "https://developer.samsung.com/smarttv/develop/getting-started/quick-start-guide.html",
+    "https://developer.samsung.com/smarttv/develop/guides/user-interaction/remote-control.html",
+    "https://developer.samsung.com/smarttv/design/ux-checklist.html",
+    "https://developer.samsung.com/smarttv/develop/guides/multimedia/media-playback/using-avplay.html",
+    "https://developer.samsung.com/smarttv/develop/specifications/web-engine-specifications.html",
+    "https://developer.samsung.com/smarttv/develop/guides/web-app-memory-optimization-guide.html"
+  ],
+  "note": "Not an official IPTV Smarters Pro document; proprietary/private product facts remain UNKNOWN unless independently sourced."
+}
